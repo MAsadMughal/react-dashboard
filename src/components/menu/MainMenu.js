@@ -14,7 +14,7 @@ import {
 } from "@chakra-ui/react";
 // Assets
 import {
-  MdOutlineMoreHoriz,
+  MdOutlineMoreVert, // Changed to vertical ellipsis for a better menu
   MdOutlinePerson,
   MdOutlineCardTravel,
   MdOutlineLightbulb,
@@ -67,7 +67,7 @@ export default function Banner(props) {
         onClick={onOpen1}
         borderRadius='10px'
         {...rest}>
-        <Icon as={MdOutlineMoreHoriz} color={iconColor} w='24px' h='24px' />
+        <Icon as={MdOutlineMoreVert} color={iconColor} w='24px' h='24px' />
       </MenuButton>
       <MenuList
         w='150px'
