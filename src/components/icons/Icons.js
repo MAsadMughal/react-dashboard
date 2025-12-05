@@ -459,7 +459,7 @@ export const SpotifyLogo = createIcon({
   ),
 });
 
-export const MyCustomLogo = createIcon({
+export const CustomLogo = createIcon({
   displayName: "MYCustomLogo",
   viewBox: "0 0 179 20",
   path: (
